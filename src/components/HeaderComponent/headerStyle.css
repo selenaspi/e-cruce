@@ -1,0 +1,72 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.main-header  {
+    font-family: 'Inter', sans-serif;
+    /* position: fixed;
+    top: 0; */
+}
+
+.main-header .nav-bar-conteiner ul {
+    height: 72px;
+    display: flex;
+    margin: 0%;
+    padding: 0% 8px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    list-style: none;
+}
+
+.main-header .nav-bar-conteiner .burger-menu { 
+    height: 36px;
+    width: 36px;
+}
+
+.main-header .nav-bar-conteiner .logo {
+    height: 56px;
+    width: 122px;
+}
+
+.main-header .nav-bar-conteiner .cart {
+    height: 36px;
+    width: 48px;
+}
+
+.main-header aside {
+    position: relative;
+    height: 30px;
+    display: flex;
+    padding-left: 6px;
+    align-items: center;
+    background-color: #7D5A94;
+}
+
+.main-header aside p {
+    display: block;
+    /* width: 384px; */
+    height:14px;
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main-header aside span {
+    background-color: #7D5A94;
+    display: block;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.main-header aside .close {
+    height: 30px;
+    width: 30px;
+    color: #fff;
+}
+
+@media (min-width: 721px) {
+
+}
